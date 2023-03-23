@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box.special > p,
+      .box.special + p {
+        color: red;
+        font-size: 2em;
+      }
+    </style>
+    <title>CSS Chaining</title>
+  </head>
+  <body>
+    <div class="box">
+      <p>Hi Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Hello Lorem, ipsum dolor.</p>
+    <div class="box special">
+      <p>Hi Lorem ipsum dolor sit amet.</p>
+    </div>
+    <p>Hello Lorem, ipsum dolor.</p>
+  </body>
+</html>

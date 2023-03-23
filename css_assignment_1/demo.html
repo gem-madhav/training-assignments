@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position, Float, Display, and Visibility Demo</title>
+    <style>
+      .container {
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .box {
+        background-color: #2196f3;
+        color: #fff;
+        padding: 10px;
+        visibility: hidden;
+      }
+
+      .float-box {
+        background-color: #f44336;
+        color: #fff;
+        padding: 10px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      .fixed-box {
+        background-color: blueviolet;
+        padding: 1em;
+        height: 3em;
+        width: 3em;
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="box">This box have visibility hidden</div>
+    </div>
+    <div class="float-box">This box is floated to the left</div>
+    <p>Some random text Lorem ipsum dolor sit amet.</p>
+
+    <div class="fixed-box">Fixed Box</div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Assignment 2</title>
+    <style>
+      th,
+      tr,
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div class="form-control">
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" name="phone" />
+      </div>
+      <div class="form-control">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div class="form-control">
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="5" cols="10"></textarea>
+      </div>
+      <div class="form-control">
+        Gender:
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" />
+      </div>
+      <div class="form-control">
+        <label for="city">Select Your City</label>
+        <select name="city" id="city">
+          <option value="chandigarh">Chandigarh</option>
+          <option value="gurugram">Gurugram</option>
+          <option value="delhi">Delhi</option>
+          <option value="bangalore">Bangalore</option>
+        </select>
+      </div>
+      <div class="form-control">
+        Hobbies:
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" />
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming" />
+        <label for="movies">Watching Movies</label>
+        <input type="checkbox" id="movies" name="hobbies" value="movies" />
+      </div>
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+
+    <h1>Student Details Form</h1>
+
+    <table>
+      <tr>
+        <th>SNo</th>
+        <th>Name</th>
+        <th>Phone no</th>
+        <th>Gender</th>
+        <th>City</th>
+        <th>Hobbies</th>
+      </tr>
+      <tr>
+        <th rowspan="3">1</th>
+        <th rowspan="3">Karan</th>
+        <th rowspan="3">12313131</th>
+        <th rowspan="3">Male</th>
+        <th rowspan="3">Delhi</th>
+        <th>Badminton</th>
+      </tr>
+      <tr>
+        <th>Singing</th>
+      </tr>
+      <tr>
+        <th>Movies</th>
+      </tr>
+      <tr>
+        <th rowspan="3">2</th>
+        <th rowspan="3">Nikhil</th>
+        <th rowspan="3">1231322</th>
+        <th rowspan="3">Male</th>
+        <th rowspan="3">Amritsar</th>
+        <th>Cricket</th>
+      </tr>
+      <tr>
+        <th>Dance</th>
+      </tr>
+      <tr>
+        <th>Drawing</th>
+      </tr>
+      <tr>
+        <th rowspan="3">3</th>
+        <th rowspan="3">Sahil</th>
+        <th rowspan="3">12313891</th>
+        <th rowspan="3">Male</th>
+        <th rowspan="3">Pune</th>
+        <th>Football</th>
+      </tr>
+      <tr>
+        <th>Reading</th>
+      </tr>
+      <tr>
+        <th>Movies</th>
+      </tr>
+    </table>
+  </body>
+</html>

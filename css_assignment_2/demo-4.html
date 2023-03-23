@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .box-1,
+      .box-2 {
+        height: 100px;
+        width: 170px;
+        background-color: #ff0000;
+        margin: 1em;
+        padding: 1em;
+      }
+
+      .box-1 {
+        transform: rotate(20deg);
+      }
+
+      .box-2:hover {
+        height: 500px;
+        width: 400px;
+        font-size: 3em;
+      }
+      .box-2 {
+        transition: all 3s;
+      }
+    </style>
+    <title>Transition and Transform Demo</title>
+  </head>
+  <body>
+    <div class="box-1">This box is transformed</div>
+    <div class="box-2">This box is transitioned.Hover to see effect.</div>
+  </body>
+</html>

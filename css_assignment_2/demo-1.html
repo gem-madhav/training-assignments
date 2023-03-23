@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body{
+            font-size: 15px;
+        }
+        .container-1{
+            font-size: 30px;
+        }
+        .container-1 div{
+            font-size: 2em;
+        }
+        .container-2{
+            font-size: 2rem;
+        }
+        .vh-box{
+            height: 50vh;
+            background-color: blue;
+        }
+        .vw-box{
+            width: 50vw;
+            background-color: blue;
+        }
+        .px-box{
+            font-size: 50px;
+        }
+    </style>
+    <title>Units</title>
+  </head>
+  <body>
+    <h1>em example</h1>
+    <div class="container-1">
+      <div>
+        <p>HELLO</p>
+        <!-- This text will be sized relative to its parent fontsize -->
+      </div>
+    </div>
+    <h1>rem example</h1>
+    <div class="container-2">
+      <p>HELLO</p>
+      <!-- This text will be sized relative to root fontsize -->
+    </div>
+    <h1>vh example</h1>
+    <div class="vh-box">this box will have height of 50% view port</div>
+    <h1>vw example</h1>
+    <div class="vw-box">this box will have width of 50% view port</div>
+<h1>px example</h1>
+<div class="px-box">This text have absolute unit px as font size, it stays same on all devices</div>
+  </body>
+</html>

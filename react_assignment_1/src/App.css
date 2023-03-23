@@ -1,0 +1,42 @@
+.App {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #00308f; /* Green */
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+}
+p {
+  font-size: 1.2rem;
+  margin: 1em 0;
+}
+
+p:nth-child(5n) {
+  background-color: blue;
+}
+form {
+  text-align: center;
+}
+input {
+  width: 100%;
+  margin: 2em 0;
+  height: 2em;
+  font-size: 14px;
+}
