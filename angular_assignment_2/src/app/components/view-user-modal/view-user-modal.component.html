@@ -1,0 +1,43 @@
+<div class="backdrop"></div>
+<div class="modal" style="display: block">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5">Verify Details</h1>
+        <button type="button" class="btn-close" (click)="handleCancel()"></button>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>
+            <b>Name:</b>
+            {{ userDetails.name }}
+          </li>
+          <li>
+            <b>Gender:</b>
+            {{ userDetails.gender }}
+          </li>
+          <li>
+            <b>Phone:</b>
+            {{ userDetails.phone }}
+          </li>
+          <li>
+            <b>Email:</b>
+            {{ userDetails.email }}
+          </li>
+          <li>
+            <b>Category:</b>
+            {{ userDetails.category }}
+          </li>
+          <li>
+            <b>Technology:</b>
+            {{ userDetails.technology.join(",") }}
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="handleCancel()">Cancel</button>
+        <button type="button" class="btn btn-primary" (click)="handleSubmit()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>

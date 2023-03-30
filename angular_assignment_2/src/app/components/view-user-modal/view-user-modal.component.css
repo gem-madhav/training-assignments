@@ -1,0 +1,14 @@
+.backdrop {
+  background: #b8b8b8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 50;
+}
+
+.modal-body ul {
+  list-style-type: none;
+}

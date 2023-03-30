@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1em;
+}
+
+.button {
+  background-color: #00308f; /* Green */
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+  font-weight: bold;
+}

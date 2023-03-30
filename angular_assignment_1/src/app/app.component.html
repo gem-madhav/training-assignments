@@ -1,0 +1,17 @@
+<div class="App">
+  <button class="button" (click)="toggleShowPara()" (click)="incrementClicks()">
+    Display Details
+  </button>
+  <span>{{ noOfTimes }} times clicked.</span>
+  <section>
+    <p *ngIf="showPara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vero
+      reiciendis molestias asperiores nihil et necessitatibus quasi inventore
+      quidem, adipisci laboriosam. Blanditiis beatae perspiciatis amet tempora
+      quia ipsam maiores sapiente.
+    </p>
+    <!-- Newly added paras -->
+    <p *ngFor="let text of texts">{{ text }}</p>
+  </section>
+  <app-add-form (onAddText)="addText($event)"></app-add-form>
+</div>
